@@ -1,0 +1,53 @@
+/* Reset styles to avoid browser inconsistencies */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Styles for the title section */
+div:nth-child(1),
+div:nth-child(2) {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the console output area */
+#consoleOutput {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+/* Styles for pre tag within consoleOutput div */
+#consoleOutput pre {
+  white-space: pre-wrap;
+  overflow-x: auto; /* Enable horizontal scrolling if text overflows */
+}
+
+#consoleOutput pre {
+  display: none;
+}
+
+#consoleOutput table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
